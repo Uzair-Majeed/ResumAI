@@ -135,6 +135,7 @@ Keep it under 1000 words.
         with st.spinner("⏳ Analyzing your resume..."):
             headers = {
                 "Authorization": f"Bearer {API_KEY}",
+                "HTTP-Referer": "https://resumai-io.streamlit.app",
                 "Content-Type": "application/json"
             }
             data = {
