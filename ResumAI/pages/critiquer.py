@@ -115,6 +115,7 @@ Please provide your analysis in a clear, structured format with specific recomme
 
             headers = {
                 "Authorization": f"Bearer {API_KEY}",
+                "HTTP-Referer": "https://resumai-io.streamlit.app",
                 "Content-Type": "application/json"
             }
 
